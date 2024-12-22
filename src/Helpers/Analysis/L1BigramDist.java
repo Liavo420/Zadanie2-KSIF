@@ -6,7 +6,7 @@ public class L1BigramDist {
     private final double[][] ref;
 
     public L1BigramDist() {
-        ref = (double[][]) Text.readFromFile("src/Helper/Analysis/_bigrams");
+        ref = (double[][]) Text.readFromFile("src/Helpers/Analysis/_bigrams");
     }
 
     public double evaluate(String decrypted) {
